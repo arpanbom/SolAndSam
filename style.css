@@ -59,28 +59,32 @@ a, a:link, a:visited, a:active
 }
 	#wrap2 
 	{
-		width:1001px; 
+		width:800px; 
 		margin:0 auto;
 		height:667px;
 		background-image:url(images/big2.png);
 		background-position:right;
 		background-repeat:repeat-y;
+		margin-top:50px;
 	}
 		.big3{color:#652a7c; font-size:44px; font-family: 'Montserrat', sans-serif; font-weight:bold;}
 		.big4{color:#bad530; font-size:44px; font-family: 'Montserrat', sans-serif; font-weight:bold; padding-left:10px;}
 		.big5{color:#bad530; font-size:44px; font-family: 'Montserrat', sans-serif; font-weight:300;}
 		.big6{color:#bad530; font-size:44px; font-family: 'Montserrat', sans-serif;}
-		.big7{color:#652a7c; font-size:18px; font-family: 'Montserrat', sans-serif; font-weight:bold; display:block;}
-		#paraset1{width:300px; text-align:left;}
+		.big7{color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; font-weight:bold; display:block;}
+		#paraset1{width:250px; text-align:left; font-family: verdana, arial, helvetica, sans-serif; font-size:14px; color:#652a7c;}
 			.para1{margin-top:40px;}
 			.para2{margin-top:10px;}
 	#flat-wrap
 	{
-		
+		margin-top:40px;
+		height:150px;	
+		width:800px;		
 	}
 		#left1
 		{
-			
+			width:280px;
+			height:80px;			
 		}
 			#button1
 			{
@@ -92,8 +96,12 @@ a, a:link, a:visited, a:active
 			}
 		#right1
 		{
-			
+			width:300px;				
+			float:right;
+			margin-top:-70px;
 		}	
+			.para3{font-family: verdana, arial, helvetica, sans-serif; font-size:10px;}
+				.big8{color:#d70e63; font-size:10px; font-family: verdana, arial, helvetica, sans-serif;}
 
 #level3
 {
@@ -101,14 +109,16 @@ a, a:link, a:visited, a:active
 }
 	#wrap3 
 	{
-		width:1001px; 
+		width:780px; 
 		margin:0 auto;
 		height:667px;
 		/*background-image:url(images/big2.png);*/
 		background-position:right;
 		background-repeat:repeat-y;
-		color:#fff;
+		padding-top:70px;		
 	}
+		.big9{color:#bad530; font-size:45px; font-family: 'Montserrat', sans-serif; display:block; font-weight:900; text-align:center;}
+		.big10{color:#fff; font-size:50px; font-family: 'Montserrat', sans-serif; display:block; font-weight:900; padding:0 0 40px 0px; line-height:30px; text-align:center;}
 		#main-tab
 		{
 			
@@ -120,9 +130,9 @@ a, a:link, a:visited, a:active
 		.table{background:None;}
 			.table ul{float:left;margin:0px;padding:0px;}
 				.table ul li{list-style:none;padding:25px 20px 25px 20px; }
-					.table ul li.title{background:#c90055;color:#fff; font-size:12px;}
-					.table ul li.title2{background:#c90055;color:#fff; font-size:12px; border-radius:10px 0px 0px 0px;}
-					.table ul li.title3{background:#c90055;color:#fff; font-size:12px; border-radius:0px 10px 0px 0px;}
+					.table ul li.title{background:#c90055;color:#fff; font-size:15px;font-family: 'Montserrat', sans-serif;}
+					.table ul li.title2{background:#c90055;color:#fff; font-size:15px; border-radius:10px 0px 0px 0px;font-family: 'Montserrat', sans-serif;}
+					.table ul li.title3{background:#c90055;color:#fff; font-size:15px; border-radius:0px 10px 0px 0px; font-family: 'Montserrat', sans-serif; padding-right:40px;}
 					.table ul li.even{font-weight:bold;background:#fff; color:#652a7c; font-size:12px;}
 					.table ul li.odd{font-weight:bold;background:#f2f2f2; color:#652a7c; font-size:12px;}	
 					.table ul li.odd2{font-weight:bold;background:#f2f2f2; color:#652a7c; font-size:12px; border-radius:0px 0px 0px 10px;}
