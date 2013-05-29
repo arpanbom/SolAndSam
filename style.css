@@ -155,11 +155,22 @@ a, a:link, a:visited, a:active
 }
 	#wrap5 
 	{
-		width:1001px; 
+		width:800px; 
 		margin:0 auto;
 		height:667px;
+		padding-top:80px;
 	}
-
+	.flat-wrap2{margin:70px 0 0 50px;}
+	#left2{width:280px;}
+	
+		.big11{color:#652a7c; font-family: 'Montserrat', sans-serif; display:block; font-size:62px; font-weight:900;}
+		.big12{color:#fff; font-family: 'Montserrat', sans-serif; width:200px; text-align:center; font-size:25px;}
+		.big13{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right; margin:50px 0 0 40px;}
+		#right2{width:350px; float:right; margin-top:-500px;}
+		#right2 p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-top:40px;}
+		.big14{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right;}
+		#button2{color:#c90055;font-family: verdana, arial, helvetica, sans-serif; font-size:18px; margin-top:50px; font-weight:900; text-align:right;}
+		
 #level6
 {
 	background-color: #fff;
