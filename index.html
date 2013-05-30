@@ -7,12 +7,17 @@
 <title>SolAndSam</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <link href="style.css" rel="stylesheet" type="text/css">
- 
+<script>
+function scrollWindow()
+{
+window.scrollTo(100,700);
+}
+</script>
 </head>
 
 <body>
 	<div id="level1">
-		<div id="wrap1">		
+		<div id="wrap1" class="section1">		
         	<div class="box1">	
 				<span class="big1">FOCUS</span>
 				<span class="big2">Made Easy</span>
@@ -23,12 +28,13 @@
 						<li>Super Performance</li>
 					</ul>                
             	</div>
-            </div>    
-		</div>
+            </div>    			
+            <input id="downscroll" type="button" onclick="scrollWindow()" value="V" />
+        </div>
 	</div>
     
     <div id="level2">
-		<div id="wrap2">			
+		<div id="wrap2" class="section2">			
         <div id="wrap2-box">
 			<span class="big3">Perfect</span>
 			<span class="big4">Ble</span><span class="big5">n</span><span class="big6">d</span>
@@ -120,7 +126,8 @@
     
     <div id="level5">
     	<div id="wrap5">
-        	<div id="left2">
+        	<div id="level5-cover">
+        	<div class="left2">
             	<span class="big11"><p>They</p> Like Us!</span>
                 <div class="flat-wrap2">
                 <p class="big12">I don't recall the 	
@@ -129,7 +136,7 @@
                 <span class="big13">Jessica</span>
                 </div>
             </div>
-            <div id="right2">
+            <div class="right2">
             	<p>I have received improved feedback from school as well as his therapists, without telling them he was taking "I need to focus".
                 </p>
 		 		<span class="big14">- Raul Blanco</span>
@@ -143,6 +150,7 @@
 				<span class="big14">- Martha</span>
 				<div id="button2">More Testimonials
                 </div>
+            </div>
             </div>
         </div>
     </div>
