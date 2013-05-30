@@ -1,6 +1,5 @@
-/* 	
-	CSS
-*/
+@charset "UTF-8";
+/* CSS Document */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 * 
@@ -24,7 +23,7 @@ body
 {
 	/*font-family :'DroidSansRegular', Verdana, Geneva, sans-serif; 
 	font-size:100%; 
-	color:#5a5143;*/
+	color:#5a5143;*/	
 }
 
 a, a:link, a:visited, a:active 
@@ -40,7 +39,7 @@ a, a:link, a:visited, a:active
 	{
 		width:960px; 
 		margin:0 auto;
-		height:600px;
+		height:660px;
 		background-image:url(images/top-big.png);
 		background-position:180px -100px;
 		background-repeat:no-repeat;
@@ -53,6 +52,21 @@ a, a:link, a:visited, a:active
 			.top-lists{margin:40px 0px 0px 45px;}
 			.top-lists ul{float:left;margin:0px;padding:0px 0px 0px 15px; border-left:solid 3px #652a7c; border-radius:2px;}
 				.top-lists ul li{list-style:none; font-family: 'Montserrat', sans-serif; font-size:23px; font-weight:500; color:#652a7c;}
+		#downscroll
+		{
+			width:500px;
+    		height:50px;
+			position:absolute;
+		    bottom:25%;
+		    margin-bottom:-150px;
+		    /* left:0; */
+		    z-index:2;
+		    left:50%;
+		    margin-left:-250px;
+			background-color:#bad530;
+			/*border:thin;*/
+			color:#fff;
+		}	
 
 #level2
 {
@@ -122,17 +136,10 @@ a, a:link, a:visited, a:active
 		padding-top:70px;	
 		border:solid 1px #000;	
 	}
-		.big9{color:#bad530; font-size:45px; font-family: 'Montserrat', sans-serif; display:block; font-weight:900; text-align:center;}
-		.big10{color:#fff; font-size:50px; font-family: 'Montserrat', sans-serif; display:block; font-weight:900; padding:0 0 40px 0px; line-height:30px; text-align:center;}
-		#main-tab
-		{
-			
-		}
-			#main-list
-			{
-				
-			}
-		.table{background:None;}
+		.big9{color:#bad530; font-size:45px; font-family: verdana, arial, helvetica, sans-serif; display:block; font-weight:bolder; text-align:center;}
+		.big10{color:#fff; font-size:55px; font-family: verdana, arial, helvetica, sans-serif; display:block; font-weight:900; padding:0 0 40px 0px; line-height:50px; text-align:center;}
+		
+		.table{background:None; margin-left:125px;}
 			.table ul{float:left;margin:0px;padding:0px;}
 				.table ul li{list-style:none;padding:25px 20px 25px 20px; }
 					.table ul li.title{background:#c90055;color:#fff; font-size:15px;font-family: 'Montserrat', sans-serif;}
@@ -151,7 +158,7 @@ a, a:link, a:visited, a:active
 	{
 		width:960px; 
 		margin:0 auto;
-		height:667px;
+		height:600px;
 		border:solid 1px #000;
 	}
 
@@ -163,17 +170,17 @@ a, a:link, a:visited, a:active
 	{
 		width:960px; 
 		margin:0 auto;
-		height:667px;
-		padding-top:80px 0 0 50px;
+		height:667px;		
 		border:solid 1px #000;
-	}	
-	#wrap5 #left2{width:280px;}
+	}
+	#level5-cover{margin:60px 0 0 130px;}	
+	#level5-cover .left2{width:280px;}
 	.flat-wrap2{margin:70px 0 0 50px;}
 		.big11{color:#652a7c; font-family: 'Montserrat', sans-serif; display:block; font-size:62px; font-weight:900;}
 		.big12{color:#fff; font-family: 'Montserrat', sans-serif; width:200px; text-align:center; font-size:25px;}
 		.big13{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right; margin:50px 0 0 40px;}
-		#wrap5 #right2{width:350px; float:right;}
-		#right2 p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-top:0px;}
+		#level5-cover .right2{width:350px; float:right; margin-top:-460px;}
+		.right2 p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-top:0px;}
 		.big14{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right;}
 		#button2{color:#c90055;font-family: verdana, arial, helvetica, sans-serif; font-size:18px; margin-top:50px; font-weight:900; text-align:right;}
 		
@@ -183,18 +190,18 @@ a, a:link, a:visited, a:active
 }
 	#wrap6 
 	{
-		width:960px; 
+		width:880px; 
 		margin:0 auto;
 		height:667px;
-		padding-top:50px;
+		padding:50px 0 0 80px;
 		border:solid 1px #000;
 	}
 		.big15{color:#bad530; text-align:center; display:block; font-family: verdana, arial, helvetica, sans-serif; font-size:45px; font-weight:900;}
 		.big16{color:#652a7c; text-align:center;  font-family: verdana, arial, helvetica, sans-serif; font-size:55px; font-weight:900; display:block;}
 	#secton{width:800px; margin-top:40px;}
-	#secton .left-sec{float:left; width:140px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}	
-	#secton .right-sec{float:right; width:140px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}
-	#secton .mid-sec{width:140px; height:200px; background-color:#bad530; margin: 0 350px 0 300px; border-radius:10px; padding:40px;}
+	#secton .left-sec{float:left; width:160px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}	
+	#secton .right-sec{float:right; width:160px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}
+	#secton .mid-sec{width:160px; height:200px; background-color:#bad530; margin: 0 350px 0 280px; border-radius:10px; padding:40px;}
 	#secton h1{color:#652a7c; font-size:20px; font-family: verdana, arial, helvetica, sans-serif;}
 	#secton h2{color:#fff; font-size:14px; font-family: verdana, arial, helvetica, sans-serif;}
 	
