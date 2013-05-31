@@ -13,6 +13,18 @@ function scrollWindow()
 window.scrollTo(100,700);
 }
 </script>
+
+<script type='text/javascript' src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script type='text/javascript'>
+    $(function() {               
+        $("#tabs-box").organicTabs({
+            "speed": 200
+        });
+
+    });
+</script>
+
 </head>
 
 <body>
@@ -133,7 +145,9 @@ window.scrollTo(100,700);
                 <p class="big12">I don't recall the 	
                 last time I felt this alert throughout the	 				day. This is good stuff!
                 </p>
-                <span class="big13">Jessica</span>
+                </div>
+                <div class="left-com-wrap">
+                <div class="big13">Jessica</div>
                 </div>
             </div>
             <div class="right2">
@@ -159,22 +173,43 @@ window.scrollTo(100,700);
     	<div id="wrap6">
         	<span class="big15">How do you</span>
             <span class="big16">SOL&SAM? </span>
-            <div id="secton">
-            	<div class="left-sec">
-                <h1>Get it now!</h1>
-                <h2>Because SOL&SAM is best enjoyed A.S.A.P.
+            <div id="tabs-box">
+            <ul class="nav">
+            	<li class="left-sec">
+                <a href="#featured" class="current">
+                	<h1>Get it now!</h1>
+                	<h2>Because SOL&SAM is best enjoyed A.S.A.P.
 </h2>
-            	</div>                
-                <div class="right-sec">
-                <h1>Learn more!</h1>
-                <h2><p>It's easy to make SOL&SAM a great part of your day.
+            	</a>
+                </li>                
+                <li class="right-sec">
+                <a href="#core">
+                	<h1>Learn more!</h1>
+	                <h2>Knowledge is power; get it here.</h2>
+            	</a>
+                </li>
+                <li class="mid-sec">
+                <a href="#jquerytuts">
+                	<h1>Prep it!</h1>                
+            		<h2><p>It's easy to make SOL&SAM a great part of your day.</p>
 </h2>
-            	</div>
-                <div class="mid-sec">
-                <h1>Prep it!</h1>
-                <h2>Knowledge is power; get it here.</h2>
-            	</div>
-            </div>
+                </a>
+                </li>
+            </ul>
+            
+            <div class="list-wrap">	
+				<ul id="featured">
+					<li> 1 Stuff in here!</li>
+				</ul>		 
+				<ul id="core" class="hide">
+					<li> 2 Stuff in here!</li>
+				</ul>		 
+		 		<ul id="jquerytuts" class="hide">
+					<li> 3 Stuff in here!</li>
+		 		</ul>
+            </div> <!-- END List Wrap -->
+            </div> <!-- END Example Two) -->
+            
         </div>
     </div>
     
