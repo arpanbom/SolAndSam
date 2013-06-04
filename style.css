@@ -198,39 +198,159 @@ a, a:link, a:visited, a:active
 	{
 		width:880px; 
 		margin:0 auto;
-		height:667px;
+		height:auto;
 		padding:50px 0 0 80px;
 		border:solid 1px #000;
 	}
 		.big15{color:#bad530; text-align:center; display:block; font-family: verdana, arial, helvetica, sans-serif; font-size:45px; font-weight:900;}
 		.big16{color:#652a7c; text-align:center;  font-family: verdana, arial, helvetica, sans-serif; font-size:55px; font-weight:900; display:block;}
-	#secton{width:800px; margin-top:40px;}
-	#secton .left-sec{float:left; width:160px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}	
-	#secton .right-sec{float:right; width:160px; height:200px; background-color:#bad530; border-radius:10px; padding:40px;}
-	#secton .mid-sec{width:160px; height:200px; background-color:#bad530; margin: 0 350px 0 280px; border-radius:10px; padding:40px;}
-	
-	#tabs-box .list-wrap { background: #eee; padding: 10px; margin: 0 0 15px 0; }
-	
+	#tabs-box{width:900px; margin-top:40px; margin-left:40px; z-index:-5;}
+	#tabs-box .left-sec{}	
+	#tabs-box .right-sec{}
+	#tabs-box .mid-sec{}
+			
 	#tabs-box ul { list-style: none; }
-	#tabs-box ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
-	#tabs-box ul li a:hover { background: #333; color: white; }
+	#tabs-box ul li a {width:160px; height:200px;  display: block; text-decoration:none;}
+	#tabs-box ul li a:hover { text-decoration:none; }
 	#tabs-box ul li:last-child a { border: none; }
 
 	#tabs-box .nav { overflow: hidden; }
-	#tabs-box .nav li { width: 97px; float: left; margin: 0 10px 0 0; }
+	#tabs-box .nav li { background-color:#bad530; border-radius:10px; float: left; margin: 0 30px 0 0; cursor: pointer; padding:40px;}
 	#tabs-box .nav li.last { margin-right: 0; }
-	#tabs-box .nav li a { display: block; padding: 5px; background: #666; color: white; font-size: 10px; text-align: center; border: 0; }
+	#tabs-box .nav li a { display: block; border: 0; }
 
-	#tabs-box li a.current,#example-two li a.current:hover { background-color: #eee !important; color: black; }
-	#tabs-box .nav li a:hover, #example-two .nav li a:focus { background: #999;}
+	#tabs-box li a.current,#tabs-box li a.current:hover {padding-bottom:40px;}
+	#tabs-box .nav li a:hover, #tabs-box .nav li a:focus { }
 		
 	.hide { position: absolute; top: -9999px; left: -9999px; }
-	#secton h1{color:#652a7c; font-size:20px; font-family: verdana, arial, helvetica, sans-serif;}
-	#secton h2{color:#fff; font-size:14px; font-family: verdana, arial, helvetica, sans-serif;}
+	#tabs-box h1{color:#652a7c; font-size:20px; font-family: verdana, arial, helvetica, sans-serif;}
+	#tabs-box h2{color:#fff; font-size:14px; font-family: verdana, arial, helvetica, sans-serif;}
 	
+	#tabs-box .list-wrap { background: #652a7c; padding: 0px 10px 10px 319px; margin: -5px 0 0px -315px; width:1019px; height:auto; z-index:10;}
+		
+		.list-wrap ul
+		{ 
+			list-style:none;						
+			padding-top:70px;
+		}
+			.list-wrap ul li 
+			{
+				width:960px; 
+				height:auto;  	
+			}				
+		.list-wrap #prep-it
+		{		
+			background-image:url(images/contact.png);
+			background-repeat:no-repeat;
+			background-position:120px 18px;
+		background-size:135px 135px;
+		padding-bottom:70px;
+		}
+		.list-wrap #lefthook
+		{
+			width:340px;
+			height:auto;			
+			float:left;
+			margin-right:70px;									
+		}
+			.list-wrap #lefthook h1
+			{
+				color:#bad530;
+				margin-bottom:50px;
+				font-family: 'Montserrat', sans-serif;
+				font-size:26px;
+				line-height:28px;
+			}
+			.plus
+			{
+				color:#bad530;				
+				font-family: 'Montserrat', sans-serif;
+				font-size:11px;
+			}
+			.list-wrap #lefthook h2
+			{
+				color:#fff;
+				margin-bottom:20px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			.list-wrap #lefthook h3
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			.list-wrap #lefthook h4
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+				margin-top:20px;
+			}
+			.list-wrap #lefthook p
+			{
+				color:#bad530;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:12px;
+				text-align:left;
+				line-height:13px;
+			}
+			
+		.list-wrap ul li #righthook
+		{
+			width:250px;
+			border:solid 1px #0F6;
+			float:right;						
+		}
+			#minus
+			{
+				color:#bad530;				
+				margin-left:-4px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:40px;
+				line-height:24px;
+				font-weight:bold;				
+			}
+			.list-wrap #righthook p
+			{
+				color:#fff;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:12px;
+				text-align:left;
+				line-height:13px;
+				width:750px;
+				padding-top:28px;				
+			}
+			.list-wrap #righthook h2
+			{
+				color:#bad530;
+				margin-bottom:10px;
+				margin-top:20px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			.list-wrap #righthook h3
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+		
+		#Full_Name{-moz-border-radius: 5px;
+-webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Email_Address{-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Telephone_Number{-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Your_Message{-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px; padding:5px 5px 5px 8px;}
+		textarea{ resize:none;}
+		#submit_name{-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px; color:#652a7c; background-color:#bad530; height:25px; width:100px; border:none; margin-right:-78px; font-family: verdana, arial, helvetica, sans-serif;}
+		::-webkit-input-placeholder { color:#c90055; }
+		::-moz-placeholder { #c90055 } /* firefox 19+ */
+		:-ms-input-placeholder { color:#c90055; } /* ie */
+		input:-moz-placeholder { color:#c90055; }
+		
 #footer
 {
-	background-color: #411944;
+	background-color: #411944;	
 }
 	#wrap-footer
 	{
