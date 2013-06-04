@@ -33,6 +33,9 @@ window.scrollTo(100,700);
 	</script>
 	<link rel="stylesheet" type="text/css" href="freecontactform.css">
 
+<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />    
+
 </head>
 
 <body>
@@ -140,7 +143,27 @@ window.scrollTo(100,700);
 	
     <div id="level4">
     	<div id="wrap4">
-    		SlideShow
+    		
+            
+            
+        	<div class="slider-wrapper theme-default">
+            	<div id="slider" class="nivoSlider">
+                	<img src="images/1.jpg" data-thumb="images/up.jpg" alt="" title="" />
+                	<img src="images/2.jpg" data-thumb="images/up.jpg" alt="" title="" />
+                	<img src="images/3.jpg" data-thumb="images/up.jpg" alt="" title="" />
+                </div>   
+            </div>
+            
+            <script type="text/javascript" src="scripts/jquery-1.9.0.min.js">
+            </script>
+    		<script type="text/javascript" src="jquery.nivo.slider.js">
+            </script>
+		    <script type="text/javascript">
+			    $(window).load(function() {
+		        $('#slider').nivoSlider();
+    			});
+    		</script>
+            
         </div>
     </div>
     
