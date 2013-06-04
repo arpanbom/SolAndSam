@@ -25,6 +25,14 @@ window.scrollTo(100,700);
     });
 </script>
 
+<script src="freecontactformvalidation.js"></script>
+	<script>
+	required.add('Full_Name','NOT_EMPTY','Full Name');
+	required.add('Email_Address','EMAIL','Email Address');
+	required.add('Your_Message','NOT_EMPTY','Your Message');	
+	</script>
+	<link rel="stylesheet" type="text/css" href="freecontactform.css">
+
 </head>
 
 <body>
@@ -41,7 +49,7 @@ window.scrollTo(100,700);
 					</ul>                
             	</div>
             </div>    			
-            <input id="downscroll" type="button" onclick="scrollWindow()" value="V" />
+            <input id="downscroll" type="button" onClick="scrollWindow()" value="V" />
         </div>
 	</div>
     
@@ -176,20 +184,20 @@ window.scrollTo(100,700);
             <div id="tabs-box">
             <ul class="nav">
             	<li class="left-sec">
-                <a href="#featured" class="current">
+                <a href="#get-it-now" class="current">
                 	<h1>Get it now!</h1>
                 	<h2>Because SOL&SAM is best enjoyed A.S.A.P.
 </h2>
             	</a>
                 </li>                
                 <li class="right-sec">
-                <a href="#core">
+                <a href="#learn-more">
                 	<h1>Learn more!</h1>
 	                <h2>Knowledge is power; get it here.</h2>
             	</a>
                 </li>
                 <li class="mid-sec">
-                <a href="#jquerytuts">
+                <a href="#prep-it">
                 	<h1>Prep it!</h1>                
             		<h2><p>It's easy to make SOL&SAM a great part of your day.</p>
 </h2>
@@ -198,21 +206,95 @@ window.scrollTo(100,700);
             </ul>
             
             <div class="list-wrap">	
-				<ul id="featured">
-					<li> 1 Stuff in here!</li>
+				<ul id="get-it-now">
+					<li>Ready for the goodness?
+                    	Get SOL&SAM
+                    </li>
 				</ul>		 
-				<ul id="core" class="hide">
+				<ul id="learn-more" class="hide">
 					<li> 2 Stuff in here!</li>
 				</ul>		 
-		 		<ul id="jquerytuts" class="hide">
-					<li> 3 Stuff in here!</li>
+		 		<ul id="prep-it" class="hide">
+					<li id="lefthook">
+                        <h1>Frequently<br/>
+						Asked Questions</h1>
+                        
+                        <h2>Who is SOL&SAM? <span class="plus">+</span></h2>
+
+						<h3>How are the 3 varieties different? <span class="plus">&times;</span></h3>
+						<p>The essential difference is in the flavor and intensity. For example, the Cherry variety has more added sweetener and each serving is thus good for 60 lbs of body-weight, whereas each serving of the Unflavored variety is good for 85 lbs. Your taste preference is what counts.</p>
+
+						<h4>How long until I see results<br/> 
+						when using this product? <span class="plus">+</span></h4>
+
+						<h4>Are there any side-effects? <span class="plus">+</span></h4>
+
+						<h4>When is the best time to use this product,<br/> and how often? <span class="plus">+</span></h4>
+
+						<h4>How many servings do I need per daily dose? <span class="plus">+</span></h4>
+
+						<h4>What's the best way to mix the powder? <span class="plus">+</span></h4>
+                        
+                    </li>
+                    <li id="righthook">
+                    	<span id="minus">Get in touch!</span>
+                        <p>Have a question about acclaimed supplement?We'd love to hear from you</p>
+                        <h2>(877) 898-4770
+<br/>service@solandsam.com</h2>
+						<h3>Monday - Friday 10am-4pm EST</h3> 
+
+                    
+                        	<form name="freecontactform" method="post" action="freecontactformprocess.php" onSubmit="return validate.check(this)">
+	<table width="400px" class="freecontactform">
+	<tr>
+	 <td valign="top">
+	  <label for="Full_Name" class="required"></label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:280px" placeholder="Name">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Email_Address" class="required"></label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:280px" placeholder="Email">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Telephone_Number" class="not-required"></label>
+	 </td>
+	 <td valign="top">
+	  <input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:280px" placeholder="Phone">
+	 </td>
+	</tr>
+	<tr>
+	 <td valign="top">
+	  <label for="Your_Message" class="required"></label>
+	 </td>
+	 <td valign="top">
+	  <textarea style="width:282px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000" placeholder="Tell us how we can help you"></textarea>
+	 </td>
+	</tr>
+	
+	<tr>
+	 <td colspan="2" style="text-align:center" >	 
+	  <input id="submit_name" type="submit" value=" SEND ">	  
+	 </td>
+	</tr>
+	</table>
+	</form>                    
+                    </li>
 		 		</ul>
             </div> <!-- END List Wrap -->
-            </div> <!-- END Example Two) -->
+            </div> <!-- END tabs-box) -->
             
         </div>
     </div>
-    
+	
+    <div class="clear"></div>
     <div id="footer">
     	<div id="wrap-footer">
         	<div class="left3">
