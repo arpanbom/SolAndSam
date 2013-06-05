@@ -290,7 +290,7 @@ label.error {
 	padding-top:0px;
 }
 .lemon_flavour{
-	padding-left:13.8em;
+	padding-left:13.9em;
 	padding-top:0em;
 }
 .unflavoured{
@@ -299,8 +299,8 @@ label.error {
 }
 .purple_bg{
 	background:;
-	padding-top:39em;
-	border:solid 1px #000;
+	padding-top:39.4em;	
+	padding-bottom:2em;	
 }
 .purple_bg input{
 	width:1.8em;	
@@ -312,12 +312,11 @@ label.error {
 }
 .purple_bottom{
 	background:;
-	padding-top:1.7em;
-	padding-left:2.6em;
-	height:35px;
+	padding-top:1.9em;
+	padding-left:2.6em;	
 	color:#fff;
 	font-size:1.3em;
-	font-weight:bold;
+	font-weight:bold;	
 }
 
 #level7
