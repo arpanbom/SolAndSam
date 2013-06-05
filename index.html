@@ -234,19 +234,19 @@
                 <div class="purple_bg">
                   <div class="getnow_left">
                   <form id="calculation" name="calculation">
-                    <div class="cherry_flavour">Cherry Flavour
+                    <div class="cherry_flavour">
                       <span class="cherry"> <input type="text" size="4" id="cherry" name="cherry" onchange="calculateTotal()"></span></div>
                   </div>
                   <div class="getnow_middle">
-                    <div class="lemon_flavour">Lemon Flavour
+                    <div class="lemon_flavour">
                     <span class="lemon"> <input type="text" size="4" id="lemon" name="lemon" onchange="calculateTotal()"></span></div>
                   </div>
                   <div class="getnow_right">
-                  <div class="unflavour">Unflavoured
+                  <div class="unflavour">
                   <span class="unflavoured"> <input type="text" size="4" id="unflavoured" name="unflavoured" onchange="calculateTotal()"></span></div>
                   </div>
                   <br class="clear">
-                  <div class="purple_bottom"> <span id="total">Total: 0$</span></div>
+                  <div class="purple_bottom"> <span id="total">Total: $0</span></div>
                 </div>
 
 
@@ -373,6 +373,30 @@ m(document).ready(function () {
     <script src="js/bootstrap-tooltip.js"></script>
     <script src="js/bootstrap-popover.js"></script>
     <script src="js/application.js"></script>
+
+    <script src="js/jquery.validate.min.js"></script>
+    
+    <script src="js/jquery_form.js"></script>
+    <script>
+      function calculateTotal(){
+       var theForm = document.forms["calculation"];
+          //Get a reference to the TextBox
+      var cherry = theForm.elements["cherry"];
+      var lemon = theForm.elements["lemon"];
+      var unflavoured = theForm.elements["unflavoured"];
+      if(cherry.value=="")
+        cherry.value=0;
+      if(lemon.value=="")
+        lemon.value=0;
+      if(unflavoured.value=="")
+        unflavoured.value=0;
+      total = parseInt(cherry.value)*31.99+parseInt(lemon.value)*31.99+parseInt(unflavoured.value)*31.99;
+    
+     //display the result
+      document.getElementById('total').innerHTML =
+                                        "Total: $"+total;
+      }
+    </script>
     <!-- End Bootstrap js -->    
   </body>
 </html>
