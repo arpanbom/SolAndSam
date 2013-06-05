@@ -88,11 +88,13 @@
 	{
 	}	
 
-	
-	.tab-content{background-color:#652a7c;}	
+	.nav{background-color:#bad530;}
+	.nav a:hover{background-color:#bad530;}
+	.active{background-color:#bad530;}
+	.tab-content{background-color:#652a7c; width: 100%;}	
 	#lefthook
 		{
-			width:340px;
+			width:22em;
 			height:auto;			
 			float:left;
 			margin-right:0px;									
@@ -123,6 +125,7 @@
 				color:#fff;				
 				font-family: verdana, arial, helvetica, sans-serif;
 				font-size:11px;
+				margin: 0px;
 			}
 			#lefthook h4
 			{
@@ -142,8 +145,7 @@
 			
 		#righthook
 		{
-			width:250px;
-			border:solid 1px #0F6;
+			width:50%;			
 			float:right;						
 		}
 			#minus
