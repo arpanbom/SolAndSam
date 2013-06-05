@@ -46,26 +46,31 @@
 }
 	#wrap2 img
 	{
-	}	
-	.left2{width:280px;}
-	.flat-wrap2{}
+	}			
 	.big11
 	{
 		color:#652a7c; 
 		font-family: 'Montserrat', sans-serif; 
 		display:block; 
-		font-size:62px; 
+		font-size:4em; 
+		line-height: 1em;
 		font-weight:900;
+	}
+	.left-back{
+		background-image: url(images/comment-box.png);
+		background-size: 90% 90%;
+		background-repeat: no-repeat;
 	}
 	.big12
 	{
 		color:#fff; 
-		font-family: 'Montserrat', sans-serif; 
-		width:200px; 
+		font-family: 'Montserrat', sans-serif; 		
 		text-align:center; 
-		font-size:25px;
-	}
+		font-size:1.5em;
+		margin:78px 0 0 0px;		
+	}	
 	.left-com-wrap{margin:78px 0 0 380px;}
+		.flat-wrap2{margin:10px 0 0 100px;}
 		.big13
 		{
 			color:#fff; 
@@ -73,6 +78,8 @@
 			font-size:18px; 
 			float:right;
 		}
+	.right2 p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-top:3em;}	
+		.big14{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right;}
 #level6
 {
 	background-color: #fff;
@@ -80,3 +87,139 @@
 	#wrap2 img
 	{
 	}	
+
+	
+	.tab-content{background-color: ;}	
+	#lefthook
+		{
+			width:340px;
+			height:auto;			
+			float:left;
+			margin-right:0px;									
+		}
+			#lefthook h1
+			{
+				color:#bad530;
+				margin-bottom:50px;
+				font-family: 'Montserrat', sans-serif;
+				font-size:26px;
+				line-height:28px;
+			}
+			.plus
+			{
+				color:#bad530;				
+				font-family: 'Montserrat', sans-serif;
+				font-size:11px;
+			}
+			#lefthook h2
+			{
+				color:#fff;
+				margin-bottom:20px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			#lefthook h3
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			#lefthook h4
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+				margin-top:20px;
+			}
+			#lefthook p
+			{
+				color:#bad530;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:12px;
+				text-align:left;
+				line-height:13px;
+			}
+			
+		#righthook
+		{
+			width:250px;
+			border:solid 1px #0F6;
+			float:right;						
+		}
+			#minus
+			{
+				color:#bad530;				
+				margin-left:-4px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:40px;
+				line-height:24px;
+				font-weight:bold;				
+			}
+			#righthook p
+			{
+				color:#fff;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:12px;
+				text-align:left;
+				line-height:13px;
+				width:750px;
+				padding-top:28px;				
+			}
+			#righthook h2
+			{
+				color:#bad530;
+				margin-bottom:10px;
+				margin-top:20px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+			#righthook h3
+			{
+				color:#fff;				
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:11px;
+			}
+		
+		#Full_Name{-moz-border-radius: 5px;
+-webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Email_Address{-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Telephone_Number{-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; padding:5px 5px 5px 8px;}
+		#Your_Message{-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px; padding:5px 5px 5px 8px;}
+		textarea{ resize:none;}
+		#submit_name{-moz-border-radius: 5px; -webkit-border-radius: 5px;border-radius: 5px; color:#652a7c; background-color:#bad530; height:25px; width:100px; border:none; margin-right:-78px; font-family: verdana, arial, helvetica, sans-serif;}
+		::-webkit-input-placeholder { color:#c90055; }
+		::-moz-placeholder { #c90055 } /* firefox 19+ */
+		:-ms-input-placeholder { color:#c90055; } /* ie */
+		input:-moz-placeholder { color:#c90055; }
+		
+	.head1
+			{
+				color:#bad530;
+				margin-bottom:18px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:24px;
+				line-height:28px;
+				display:block;
+				margin-left:254px;
+				font-weight:600;
+			}		
+	.head2
+			{
+				color:#fff;
+				margin-bottom:50px;
+				font-family: verdana, arial, helvetica, sans-serif;
+				font-size:46px;
+				line-height:28px;
+				font-weight:bold;
+				margin-left:240px;
+			}				
+
+
+
+#level7
+{
+	background-color: #411944;
+}
+	#wrap2 img
+	{
+	}		
