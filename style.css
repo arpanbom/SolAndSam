@@ -1,6 +1,6 @@
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
 #level1
 {
 	background-color: #bad530;
@@ -36,8 +36,8 @@
 	#wrap2 img
 	{
 	}	
-	.tabbable2 .nav{padding-left:30em; width:12.5em; background-color: #bad530; border-radius: 5px;} 	
-	#fix img{width: 10%;}
+	.tabbable2 .nav{margin-left:48em; width:12.5em; background-color: #bad530; border-radius: 5px;} 	
+
 
 #level3
 {
@@ -102,10 +102,18 @@
 	{
 	}	
 
-	.tabbable .nav{background-color:#bad530;}
-	.tabbable .nav a:hover{background-color:#bad530;}
-	.tabbable .active{background-color:#bad530;}
-	.tabbable .tab-content{background-color:#652a7c; width: 100%;}	
+	#tab-container .list-wrap { background: #652a7c; min-height:700px;}
+		#tab-container ul
+		{ 
+			list-style:none;									
+		}
+			#tab-container ul li 
+			{
+				float:left;
+				margin-right: 3em;
+			}	
+		#tab-container ul li a {width:19em; height:24em;  display: block; text-decoration:none;}				
+
 	#lefthook
 		{
 			width:22em;
@@ -230,7 +238,87 @@
 				margin-left:240px;
 			}				
 
+#tab-1-div
+{
+	background: url(images/check-out.png);
+	background-repeat: no-repeat;
+	height:auto;
+	background-size: 90% 50%;	
+	background-position: 0em 25em;
+}
+div.control-group{
+	padding-left:30px;
+}
 
+div.success{
+	background: url(images/tick-icon.png) left top no-repeat;
+}
+div.error{
+	background: url(images/cross-icon.png) left top no-repeat;
+}
+
+//label.valid {
+ // width: 24px;
+  //height: 24px;
+  //background: url(images/cross-icon.png) center center no-repeat;
+  //display: inline-block;
+//  text-indent: -9999px;
+//}
+label.error {
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+.getnow_left{
+	/*background:url(images/cherry.png) no-repeat;*/
+	float:left;
+	width:33%;
+}
+.getnow_middle{
+	/*background:url(images/lemon.png) no-repeat;*/
+	float:left;
+	width:33%
+}
+.getnow_right{
+	/*background:url(images/unflavoured.png) no-repeat;*/
+	float:left;
+	width:30%;
+}
+.cherry_flavour{
+	padding-left:17.4em;
+	padding-top:0px;
+}
+.lemon_flavour{
+	padding-left:13.8em;
+	padding-top:0em;
+}
+.unflavoured{
+	padding-left:10.9em;
+	padding-top:0em;
+}
+.purple_bg{
+	background:;
+	padding-top:39em;
+	border:solid 1px #000;
+}
+.purple_bg input{
+	width:1.8em;	
+	height:1.5em;	
+}
+
+.clear{
+	clear:both;
+}
+.purple_bottom{
+	background:;
+	padding-top:1.7em;
+	padding-left:2.6em;
+	height:35px;
+	color:#fff;
+	font-size:1.3em;
+	font-weight:bold;
+}
 
 #level7
 {
