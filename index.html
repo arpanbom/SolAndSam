@@ -59,7 +59,42 @@
       <div class="row-fluid">
         <div class="span2"></div>
         <div class="span8">
-          <img src="images/perfect.png">
+
+          <div class="tabbable2"> <!-- Only required for left/right tabs -->
+            
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <img src="images/perfect.png">
+              </div>
+              <div class="tab-pane" id="tab2">
+                <img src="images/perfect.png">
+              </div>
+              <div class="tab-pane" id="tab3">
+                <img src="images/perfect.png">
+              </div>
+            </div>
+
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">
+                <img src="images/lb1.png">
+                  </a>
+              </li>
+              <li><a href="#tab2" data-toggle="tab">
+                <div id="fix">
+                  <img src="images/lb2.png">
+                </div>
+                  </a>
+              </li>
+              <li><a href="#tab3" data-toggle="tab">
+                <img src="images/lb3.png">                
+                  </a>
+              </li>
+            </ul>
+
+          </div>
+
+
+
         </div>  
         <div class="span1">  
           <div class="row-fluid">
@@ -74,11 +109,7 @@
       <div class="row-fluid">
         <div class="span8"></div>
         <div class="span3">
-          <div class="btn-group" data-toggle="buttons-radio">
-            <button type="button" class="btn btn-primary">Left</button>
-            <button type="button" class="btn btn-primary">Middle</button>
-            <button type="button" class="btn btn-primary">Right</button>
-          </div>
+          
         </div>
         <div class="span1"></div>
       </div>
