@@ -16,7 +16,7 @@
     }
     </script>
     <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />    
+    <link rel="stylesheet" href="slidern.css" type="text/css" media="screen" />    
 
   </head>
   <body>
@@ -67,10 +67,10 @@
                 <img src="images/perfect.png">
               </div>
               <div class="tab-pane" id="tab2">
-                <img src="images/perfect.png">
+                <img src="images/3.png">
               </div>
               <div class="tab-pane" id="tab3">
-                <img src="images/perfect.png">
+                <img src="images/2.png">
               </div>
             </div>
 
@@ -180,9 +180,13 @@
 
         </div>
         <div class="span4 right2">
+        <div class="row-fluid left-back" >              
+          <div class="span12">
           <p>I have received improved feedback from school as well as his therapists, without telling them he was taking "I need to focus".
                 </p>
         <span class="big14">- Raul Blanco</span>
+          </div>
+        </div>    
         <p>I saw results within a week. I was amazed. I can tell you with all honesty, this is an answer to our prayers! My child is still                    himself, he is active and quick witted and funny and smart. Thank you for saving my sanity and making me a believer in 100%     
                    controlling ADD without drugs! We will be long term users. 
                 </p>   
@@ -195,6 +199,7 @@
                 </div>
 
         </div>
+        </div>
         <div class="span2"></div>
       </div>  
     </div>  
@@ -205,31 +210,53 @@
       <div class="row-fluid"><div class="span12"></div></div>
       <div class="row-fluid">
         
-        <div class="span2"></div>
+        <div class="span2">
+        </div>
         <div class="span10">
-          <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
-              <li class="active"><a href="#tab1" data-toggle="tab">
-                <h4>Get it now!</h4>
-                  <h5>Because SOL&SAM is best enjoyed A.S.A.P.</h5></a>
-              </li>
-              <li><a href="#tab2" data-toggle="tab"><h4>Learn more!</h4>
-                  <h5>Knowledge is power; get it here.</h5></a>
-              </li>
-              <li><a href="#tab3" data-toggle="tab"><h4>Prep it!</h4>                
-                <h5>It's easy to make SOL&SAM a great part of your day.
-</h5></a>
-              </li>
-            </ul>
-            <div class="tab-content">
-              <div class="tab-pane active" id="tab1">
-                <img src="images/check-out.png"/>                
+          
+
+
+          <script src="/javascripts/jquery-1.7.1.min.js" type="text/javascript"></script> 
+          <script src="scripts/jquery.hashchange.min.js" type="text/javascript"></script> 
+          <script src="scripts/jquery.easytabs.js" type="text/javascript"></script>  
+            <div id="tab-container">
+              <ul>
+                <li><a href="#tab-1-div"><img src="images/tabbox1.png"/></a></li>
+                <li><a href="#that-other-tab"><img src="images/tabox2.png"/>
+                </a></li>
+                <li><a href="#lastly"><img src="images/tabbox3.png"/></a></li>
+              </ul>
+              <div id="list-wrap">
+              <div id="tab-1-div">
+                
+
+
+                <div class="purple_bg">
+                  <div class="getnow_left">
+                  <form id="calculation" name="calculation">
+                    <div class="cherry_flavour">Cherry Flavour
+                      <span class="cherry"> <input type="text" size="4" id="cherry" name="cherry" onchange="calculateTotal()"></span></div>
+                  </div>
+                  <div class="getnow_middle">
+                    <div class="lemon_flavour">Lemon Flavour
+                    <span class="lemon"> <input type="text" size="4" id="lemon" name="lemon" onchange="calculateTotal()"></span></div>
+                  </div>
+                  <div class="getnow_right">
+                  <div class="unflavour">Unflavoured
+                  <span class="unflavoured"> <input type="text" size="4" id="unflavoured" name="unflavoured" onchange="calculateTotal()"></span></div>
+                  </div>
+                  <br class="clear">
+                  <div class="purple_bottom"> <span id="total">Total: 0$</span></div>
+                </div>
+
+
+
+
               </div>
-              <div class="tab-pane" id="tab2">
+              <div id="that-other-tab">
                 <img src="images/ins.png"/>                
               </div>
-              <div class="tab-pane" id="tab3">
-                
+              <div id="lastly">
                 <li id="lefthook">
                         <h1>Frequently<br/>
             Asked Questions</h1>
@@ -303,10 +330,23 @@
   </table>
   </form>                    
                     </li>
-
-              </div>
-            </div>
+  </div>
           </div>
+        </div>
+
+<script type="text/javascript"> 
+  var m = jQuery.noConflict();
+m(document).ready(function () {
+    m('#tab-container').easytabs();
+});
+</script> 
+
+
+
+        
+
+
+
         </div>
           
       </div>  
