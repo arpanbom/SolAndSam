@@ -36,6 +36,9 @@
 	#wrap2 img
 	{
 	}	
+	.tabbable2 .nav{padding-left:30em; width:12.5em; background-color: #bad530; border-radius: 5px;} 	
+	#fix img{width: 10%;}
+
 #level3
 {
 	background-color: #652a7c;
@@ -99,10 +102,10 @@
 	{
 	}	
 
-	.nav{background-color:#bad530;}
-	.nav a:hover{background-color:#bad530;}
-	.active{background-color:#bad530;}
-	.tab-content{background-color:#652a7c; width: 100%;}	
+	.tabbable .nav{background-color:#bad530;}
+	.tabbable .nav a:hover{background-color:#bad530;}
+	.tabbable .active{background-color:#bad530;}
+	.tabbable .tab-content{background-color:#652a7c; width: 100%;}	
 	#lefthook
 		{
 			width:22em;
