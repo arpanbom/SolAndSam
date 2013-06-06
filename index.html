@@ -253,6 +253,96 @@
                   </div>
                   <br class="clear">
                   <div class="purple_bottom"> <span id="total">Total: $0</span></div>
+                  <!-- sample modal content -->
+          <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3 id="myModalLabel">Check Out</h3>
+            </div>
+            <div class="modal-body">
+              
+              <div>
+      <div>
+          <form id="purchaseForm">
+
+        <div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="name" id="name" value="" placeholder="Username">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="shippingaddress"></label>
+          <div class="controls">
+            <input type="text" name="shippingaddress" id="shippingaddress" value="" placeholder="shippingaddress">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="state"></label>
+          <div class="controls">  
+            <select name="state" id="state">
+              <option>State</option>
+              <option>Option 1</option>
+              <option>OPtion 2</option>
+            </select>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="zip"></label>
+          <div class="controls">
+            <input type="text" name="zip" class="zip" placeholder="ZIP">
+              <select name="shipping" class="shipping">
+                <option>Shipping   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option>Option 1</option>
+                <option>OPtion 2</option>
+              </select>
+          </div>
+        </div>
+        </div>
+        <div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="email" placeholder="email">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="creditcard" placeholder="creditcard">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="expiry" placeholder="expiry" class="expiry ">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="cvc" placeholder="cvc" class="cvc">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <input type="text" name="discountcode" placeholder="discountcode">
+          </div>
+        </div>
+        <!--input type="submit"-->
+        </div>
+        
+
+        </form>
+      </div>
+    </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal">Close</button>
+              <button class="btn btn-primary">Submit</button>              
+            </div>
+          </div>
+          <div class="checkout-click-wrap">
+            <a data-toggle="modal" href="#myModal" class="checkout-click">Checkout</a>
+          </div>
+
+
                 </div>
 
 
