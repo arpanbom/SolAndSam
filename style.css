@@ -66,30 +66,33 @@
 		color:#652a7c; 
 		font-family: 'Montserrat', sans-serif; 
 		display:block; 
-		font-size:4.5em; 
+		font-size:5em; 
 		line-height: 1em;
-		font-weight:900;
+		font-weight:bold;
 	}
 	.left-back{
 		background-image: url(images/comment-box.png);
-		background-size: 90% 150%;
+		background-size: 26% 69%;
 		background-repeat: no-repeat;
+		background-position: 16em 11em;
 	}
 	.big12
 	{
 		color:#fff; 
-		font-family: 'Montserrat', sans-serif; 		
+		font-family: verdana, arial, helvetica, sans-serif;
 		text-align:center; 
-		font-size:1.5em;
-		margin:78px 0 0 0px;		
+		font-size:1.7em;
+		margin:4em 0 0 0em;		
+		line-height: 1.2em;
+		font-weight: 600;				
 	}	
-	.left-com-wrap{margin:78px 0 0 380px;}
+	.left-com-wrap{margin:4em 5.5em 0 0em;}
 		.flat-wrap2{margin:10px 0 0 100px;}
 		.big13
 		{
 			color:#fff; 
 			font-family: 'Montserrat', sans-serif; 
-			font-size:18px; 
+			font-size:1.3em;
 			float:right;
 		}
 	.right2 .right2p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-bottom: 0.5em;}	
