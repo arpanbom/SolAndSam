@@ -66,13 +66,13 @@
 		color:#652a7c; 
 		font-family: 'Montserrat', sans-serif; 
 		display:block; 
-		font-size:4em; 
+		font-size:4.5em; 
 		line-height: 1em;
 		font-weight:900;
 	}
 	.left-back{
 		background-image: url(images/comment-box.png);
-		background-size: 90% 90%;
+		background-size: 90% 150%;
 		background-repeat: no-repeat;
 	}
 	.big12
@@ -93,8 +93,10 @@
 			float:right;
 		}
 	.right2 .right2p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-bottom: 0.5em;}	
+	.right2 .right2p2 {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-bottom: 0.5em; margin-top:1.4em;}	
 	.right2 p {color:#652a7c; font-family: verdana, arial, helvetica, sans-serif; display:block; font-size:18px; text-align:left; margin-top:3em;}	
 		.big14{color:#fff; font-family: 'Montserrat', sans-serif; display:block; font-size:18px; float:right;}
+		#button2{color:#c90055;font-family: verdana, arial, helvetica, sans-serif; font-size:18px; margin-top:4em; margin-right:-2em; font-weight:900; text-align:right; visibility: hidden;}
 #level6
 {
 	background-color: #fff;
